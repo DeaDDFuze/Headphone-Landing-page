@@ -1,0 +1,179 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+body{
+
+    border-width: 50px;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    border-color: #1E1D30;
+    box-sizing: border-box;
+    border-style: solid;
+    margin: 0;
+
+    font-family: 'open-Sans';
+
+
+    background-color: #ECEEF0;
+
+}
+a{
+    color: black;
+    text-decoration: none
+}
+header{
+    font-family: "Lato", Geneva, Tahoma, sans-serif;
+}
+main{
+    font-family: "Lato", Geneva, Tahoma, sans-serif;
+    margin-bottom: 100%;
+}
+.rower{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -300px;
+}
+.active{
+    color: #D94539;
+    text-decoration: underline;
+}
+.shopper{
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    
+}
+.shopper:hover{
+    cursor: pointer;
+}
+.shopper img{
+    transition: transform 1s, margin-left 1s;
+
+}
+.shopper:hover img{
+    transform: scale(120%) rotate(90deg);
+
+    margin-left: 40px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    border: #F7F7F8 solid 2px;
+    padding: 20px;
+    border-radius: 30% 30% 10% 10%;
+    transition: background-color .5s;
+
+    
+    
+}
+
+.article .checked{
+    color: orange;
+}
+.article p{
+    color: gray;
+}
+.article .title{
+    color: darkgray;
+}
+.article:hover{
+    
+    background-color: white;
+   
+    
+}
+
+.article:hover h2:not(.title){
+    color: #DB5045;
+}
+.article:hover h2.title{
+    color: black;
+}
+.article>img{
+    margin-bottom: 30px;
+}
+.articleSet{
+    display: flex;
+    gap: 40px;
+}
+.rating{
+    align-self: center;
+}
+.promo{
+    padding: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    transform: scale(70%);
+    background-color: black;
+    border: white solid 2px;
+    color: white;
+    position: relative;
+    left: 450px;
+    bottom: 550px;
+    transition: transform .5s;
+
+}
+.promo:hover{
+    transform: scale(90%);
+}
+
+
+.videoplayer{
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#r1l{
+    padding-left: 50px;
+}
+#r1l h2{
+    text-decoration: none;
+    transition: text-decoration 2s;
+}
+#r1l h2:hover{
+    text-decoration: underline;
+}
+#r1r{
+    padding-right: 50px;
+}
+#Soundcloud{
+    position: relative;
+    top: -530px;
+    right: 80%;
+    
+}
+#otimg{
+    position: relative;
+    top: -500px;
+    right: 30%;
+}
+
+#links{
+    display: flex;
+    position: relative;
+    gap: 50px;
+    left: 100px;
+}
+#rtopper{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 10px;
+    gap: 20px;
+    margin-right: 120px;
+}
