@@ -31,8 +31,14 @@ header{
 }
 main{
     font-family: "Lato", Geneva, Tahoma, sans-serif;
-    margin-bottom: 100%;
+    margin-bottom: 50%;
 }
+footer{
+    text-align: center;
+}
+
+
+
 .rower{
     display: flex;
     justify-content: space-between;
@@ -119,12 +125,11 @@ main{
     position: relative;
     left: 450px;
     bottom: 550px;
-    transition: transform .5s;
+    transition: opacity .5s, transform .5s;
+    opacity: 0;
 
 }
-.promo:hover{
-    transform: scale(90%);
-}
+
 
 
 .videoplayer{
