@@ -36,7 +36,9 @@ main{
 footer{
     text-align: center;
 }
-
+img{
+    max-width: fit-content;
+}
 
 
 .rower{
@@ -81,6 +83,11 @@ footer{
     
 }
 
+#codeArticle01{
+    display: none;
+    justify-content: space-around;
+}
+
 .article .checked{
     color: orange;
 }
@@ -106,7 +113,7 @@ footer{
 .article>img{
     margin-bottom: 30px;
 }
-.articleSet{
+#articleSet{
     display: flex;
     gap: 40px;
 }
